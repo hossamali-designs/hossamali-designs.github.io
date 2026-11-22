@@ -31,3 +31,6 @@
 /* Nov 22 round 6c: section eyebrow headings larger and bright on all viewports */
 .pf .file-group .file-group-label,.pf .pf-subhead{font-size:clamp(19px,1.8vw,24px);line-height:1.4;letter-spacing:.01em;text-transform:none;color:#fff;opacity:1;font-weight:500}
 .pf #brands .file-group-label{font-size:clamp(19px,1.8vw,24px);letter-spacing:.01em}
+
+/* Nov 22 round 6d: capability statement larger, centered, white */
+.pf-capability{font-size:clamp(26px,3.2vw,42px);line-height:1.3;color:#fff;text-align:center;margin:24px auto 40px;max-width:1000px}
