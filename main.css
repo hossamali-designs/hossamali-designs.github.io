@@ -10,11 +10,16 @@
 
 /* creative process: compact heading, avatar inward; hero avatar cap; wider grids */
 @media(min-width:768px){
-  .pf-process-heading{grid-template-columns:minmax(0,1fr) minmax(0,300px);gap:40px;max-width:1150px;margin-bottom:36px}
-  .pf-process-heading .pf-process-avatar{width:300px;height:314px}
-  .pf-process-heading .pf-pa-head{top:17px;height:calc(100% - 17px)}
-  .pf-process-heading .pf-pa-bulb{width:73px;top:14px;right:4px}
-  .pf-hero .pf-avatar-stage{max-width:520px;justify-self:end}
+  .pf-process-heading{grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:40px;max-width:1150px;margin-bottom:36px}
+  .pf-process-heading .pf-process-avatar{width:420px;height:440px}
+  .pf-process-heading .pf-pa-head{top:24px;height:calc(100% - 24px)}
+  .pf-process-heading .pf-pa-bulb{width:102px;top:20px;right:-6px}
+}
+@media(min-width:768px) and (max-width:1100px){
+  .pf-process-heading{grid-template-columns:minmax(0,1fr) minmax(0,320px)}
+  .pf-process-heading .pf-process-avatar{width:320px;height:336px}
+  .pf-process-heading .pf-pa-head{top:18px;height:calc(100% - 18px)}
+  .pf-process-heading .pf-pa-bulb{width:78px;top:15px;right:-5px}
 }
 @media(min-width:1700px){
   .pf-work-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
