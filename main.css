@@ -27,3 +27,7 @@
 
 /* Nov 22 round 6b: picker label larger and bright on all viewports */
 .pf-picker-label{font-size:clamp(19px,1.8vw,24px);line-height:1.4;letter-spacing:.01em;text-transform:none;opacity:1;color:#fff;font-weight:500;margin:0 0 16px}
+
+/* Nov 22 round 6c: section eyebrow headings larger and bright on all viewports */
+.pf .file-group .file-group-label,.pf .pf-subhead{font-size:clamp(19px,1.8vw,24px);line-height:1.4;letter-spacing:.01em;text-transform:none;color:#fff;opacity:1;font-weight:500}
+.pf #brands .file-group-label{font-size:clamp(19px,1.8vw,24px);letter-spacing:.01em}
